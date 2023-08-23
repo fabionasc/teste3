@@ -21,6 +21,7 @@ namespace WinFormsApp1
         {
             this.Text = "TESTE";
             this.Text = "TESTE";
+            this.Text = "TESTE"
         }
     }
 }
