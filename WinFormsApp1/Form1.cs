@@ -12,20 +12,22 @@ namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
+        int varValor = 2;
         public Form1()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {            
+        {                        
             this.Text = "TESTE";
             this.Text = "Teste Alterado";
+            
         }
 
         private bool IsOnline()
         {
-            return true;
+            return (varValor == 4);            
         }
     }
 }
