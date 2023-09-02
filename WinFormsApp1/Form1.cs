@@ -22,5 +22,10 @@ namespace WinFormsApp1
             this.Text = "TESTE";
             this.Text = "Teste Alterado";
         }
+
+        private bool IsOnline()
+        {
+            return true;
+        }
     }
 }
