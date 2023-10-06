@@ -23,7 +23,7 @@ namespace WinFormsApp1
             if (IsOnline())
             {
                 this.Text = "TESTE";
-                this.Text = "Teste Alterado2";
+                this.Text = "Teste Alterado3";
             }
             
         }
